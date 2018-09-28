@@ -1,0 +1,171 @@
+.calculator_body{
+	position: relative;
+	margin:0 auto;
+	border: solid 3px #78826e;
+	width: 250px;
+	height: 350px;
+    border-radius: 15px;
+    background-color: #b7c4b2
+}
+.calculator_review{
+	position: relative;
+	margin:0 auto;
+	top:10px;
+	border: solid 1px #b7c4b2;
+	border-radius: 5px;
+	width: 230px;
+	height: 56px;
+	background-color: white;
+}
+.calculator_input{
+	position: relative;
+	border: solid 1px gray;
+	height: 22px;
+	cursor: auto;
+	text-align: right;
+	padding: 4px 3px 0px 0px;
+}
+.autofocus{
+	width: 221px;
+	height: 22px;
+	text-align: right;
+	outline: none;
+	padding: 0px 3px 0px 0px;
+	border:none;
+}
+/*.symbolsText{
+width: 225px;
+	height: 20px;
+	text-align: right;
+	outline: none;
+}*/
+.calculator_output{
+	position: relative;
+	border: solid 1px red;
+	height: 22px;
+	text-align: right;
+	padding: 4px 3px 0px 0px;
+}
+.calculator_buttons{
+	position: relative;
+	margin: 0 auto;
+	top: 25px;
+	border: solid 1px white;
+	width: 230px;
+	height: 253px;
+	border-radius: 5px;
+}
+.clearButton{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	border-radius: 22px;
+	background-color: #fa722e;
+	border:solid 1px #b3b1a4;
+	margin: 5px 0px 0px 10px;
+	float: left;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	font-family: Tahoma,verdana;
+	outline: none;
+}
+.clearButton:hover{
+  background-color: #f2762e;
+}
+.clearButton:active{
+background-color: #e67620;
+}
+
+.clearSymbolButton{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	border-radius: 22px;
+	background-color: #fc3618;
+	border:solid 1px #b3b1a4;
+	margin: 5px 0px 0px 10px;
+	float: left;
+	color:white;
+	font-size: 23px;
+	text-align: center;
+	font-weight: bolder;
+	padding: 0px 0pc 5px 0px;
+	font-family: verdana,Tahoma;
+	outline: none;
+}
+.clearSymbolButton:hover{
+  background-color: #f5350e;
+}
+.clearSymbolButton:active{
+  background-color: #ed3305;
+}
+
+.symbolButton{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	border-radius: 22px;
+	background-color:#f7f4e2;
+	border:solid 1px #b3b1a4;
+	color:#4d4b46;
+	text-align: center;
+	font-size: 22px;
+	margin: 5px 0px 0px 10px;
+	float: left;
+	font-family:  verdana,Tahoma;
+	padding: 0px 0pc 3px 0px;
+    outline: none;
+}
+.symbolButton:hover{
+	background-color: #e3e0ca;
+}
+.symbolButton:active{
+	background-color: #d4d2be;
+}
+
+.signButton{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	border-radius: 22px;
+	background-color:white;
+	border:solid 1px #b3b1a4;;
+	margin: 5px 0px 10px 10px;
+	color:#4d4b46;
+	text-align: center;
+	font-size: 20px;
+	margin: 5px 0px 0px 10px;
+	float: left;
+	font-family: Tahoma,verdana;
+	outline: none;
+}
+.signButton:hover{
+	background-color:#f7f4e2;
+	box-shadow:0px 1px 2px rgba(0,0,0,.1);    /* право, низ, розмитісь, навколо елемента*/
+}
+.signButton:active{
+   background-color:#e3e0ca;
+}
+.equalsButton{
+	position: relative;
+	width: 45px;
+	height: 45px;
+	border-radius: 22px;
+	background-color:#aba697;
+	border:solid 1px #b3b1a4;
+	margin: 5px 0px 0px 10px;
+	float: left;
+	color:white;
+	font-size: 23px;
+	text-align: center;
+	font-family: verdana,Tahoma;
+	font-weight: bold;
+	outline: none;     /*прибрати синій бордер при наведенні*/
+}
+.equalsButton:hover{
+	background-color:#9c998c;
+}
+.equalsButton:active{
+	background-color:#878579;
+}
